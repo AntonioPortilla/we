@@ -1,0 +1,82 @@
+/* ==========================================================================
+   mediaBOOM styles
+   ========================================================================== */
+
+/* when going live, these css styles should be merged into one file to make the site load faster */
+/*@import url('./css/fonts.inc.css');*/
+@import url('layout.inc.css');
+@import url('elements.inc.css');
+@import url('pages.inc.css');
+@import url('helper.inc.css');
+/* note - responsive.css is loaded directly in head for IE polyfill support */
+@import url('animate.css');
+@import url('ie.inc.css');
+
+/*#gold-page-2.pagescrollhome.gold-background { height: 774px !important;}
+#gold-page-2.pagescrollhome.gold-background .gold-page-2{ top:35% !important}
+#gold-page-1.pagescrollhome.gold-background { height: 700px !important;}
+#gold-page-1.pagescrollhome.gold-background .gold-page-1{ top:40% !important}
+#black-page-1.pagescrollhome.black-background {height: 650px !important;}
+#black-page-1.pagescrollhome.black-background .black-page-1{top:40% !important}*/
+.svgicons #globalhead h1#logo a{opacity:1 !important}
+
+
+
+
+#logo embed{
+	position: absolute;
+}
+
+.presentacion a{
+	display: inline-block;
+	margin: auto;
+	float: initial !important;
+}
+
+#srvModal li>span{
+	cursor:pointer;
+}
+.content_srv img{
+	margin:auto;
+	display: block;
+}
+
+.popup {
+    background-color: #ffffff;
+    color: #888888;
+    height: 245px;
+    left: 100%;
+    padding: 20px;
+    position: fixed;
+    right: 30%;
+    top: 25%;
+    width: 550px;
+    z-index: 101;
+    -moz-box-shadow: 0px 0px 10px 1px #888888;
+    -webkit-box-shadow: 0px 0px 10px 1px #888888;
+    box-shadow: 0px 0px 10px 1px #888888;
+    border-radius:10px;
+    -moz-border-radius:10px;
+}
+
+.overlay {
+	background: #000000;
+	bottom: 0;
+	left: 0;
+	opacity:0.5;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+
+a.close {
+	background: url("../images/li.png") repeat scroll left top transparent;
+	cursor: pointer;
+	float: right;
+	height: 26px;
+	left: 32px;
+	position: relative;
+	top: -33px;
+	width: 26px;
+}

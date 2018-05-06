@@ -1,0 +1,653 @@
+
+
+#globalnav-trigger {
+  display: none;
+}
+
+
+
+@media screen and (min-width: 649px) {
+
+  /**
+   * Show the menu on tablets and desktop all the time
+   */
+  #main-nav {
+    display: block !important;
+  }
+  .show-lg{
+    display: none !important;
+  }
+	.mtCustom{
+    	margin-top: -280px !important;
+  }
+}
+
+
+
+
+@media screen and (max-width: 648px) {
+.hidden-xs{
+    display: none !important;
+  }
+h1#logo, h1#logo a{
+	width: 220px !important;
+}
+h1#logo a>embed{
+	display: none;
+}
+h1#logo a{
+	text-decoration: none;
+}
+h1#logo a>span{
+	color: white;
+	font-size: 16px;
+	padding-left: 15px;
+	padding-top: 5px;
+	text-indent: initial !important;
+}
+#globalnav > .container > ul > li > span{
+	background: rgba(29, 29, 29, .98);
+	-webkit-text-fill-color: initial;
+	font-size: 14px;
+	line-height: 69px;
+	display: block;
+}
+
+
+.bitter-black,
+.bitter-white,
+.gold-page-1 .callouts,
+.black-page-1 .callouts,
+.gold-page-2 .callouts,
+.black-page-2 .callouts {
+  width: 95%;
+}
+
+
+/**
+ * GRID
+ */
+.row {
+  margin-left: 0;
+}
+.phone-sp-6 {
+  width: 48%;
+}
+.phone-sp-8 {
+  width: 70%;
+  margin: 0 auto;
+  float: none;
+}
+.phone-sp-10 {
+  width: 88%;
+}
+.phone-sp-12 {
+  width: 100%;
+  margin: 0;
+}
+
+
+/**
+ * STYLES
+ */
+
+
+#globalnav {
+  position: absolute;
+
+  top: 65px;
+  left: 0;
+  right: 0;
+
+}
+  #globalnav > .container {
+    padding: 0;
+  }
+
+  #main-nav {
+    display: none;
+  }
+  #globalnav > .container > ul {
+    padding: 0;
+  }
+  #globalnav > .container > ul > li {
+    border-bottom: solid 1px #494a4e;
+  }
+  #globalnav li:hover .sub-menu {
+    opacity: 1;
+  }
+  #globalnav > .container > ul li {
+    display: block;
+  }
+    #globalnav > .container > ul > li > a {
+      background: #000;
+      background: rgba(29, 29, 29, .98);
+      -webkit-text-fill-color: initial;
+      font-size: 14px;
+    }
+    #socialnav > ul, #globalnav > .container > ul {
+      height: auto;
+    }
+    #globalnav .sub-menu, #globalnav.disabled li:hover ul.sub-menu,
+    .touch #globalnav .sub-menu, .touch #globalnav.disabled .sub-menu {
+      position: relative;
+      left: 0;
+      opacity: 1;
+      margin: 0;
+    }
+      #globalnav > .container .sub-menu li {
+        background: rgba(29, 29, 29, .98);
+      }
+        #globalnav > .container .sub-menu li a {
+          text-align: center;
+          padding: 7px 15px;
+          border-top-color: #353535;
+          font-size: 12px;
+        }
+
+
+#globalnav-trigger {
+  display: block;
+  position: absolute;
+  top: -32px;
+  right: 10px;
+}
+.menu-icon-container { -webkit-transition: 0.3s; -moz-transition: 0.3s; -o-transition: 0.3s; -ms-transition: 0.3s; transition: 0.3s; display: block; width: 24px; height: 17px; position: relative; }
+.opened .menu-icon-container { -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); }
+.opened .menu-icon-container .menu-icon { background: #fff; }
+.opened .menu-icon-container .menu-icon:after, .opened .menu-icon-container .menu-icon:before { background: #fff; }
+
+.menu-icon { -webkit-transition: 0.4s; -moz-transition: 0.4s; -o-transition: 0.4s; -ms-transition: 0.4s; transition: 0.4s; position: absolute; left: 0; top: 50%; margin-top: -1px; display: block; width: 100%; height: 3px; background: #fff; text-indent: -9999px; }
+.menu-icon:after, .menu-icon:before { -webkit-transition: 0.3s; -moz-transition: 0.3s; -o-transition: 0.3s; -ms-transition: 0.3s; transition: 0.3s; position: absolute; content: ''; height: 3px; left: 0; background: #fff; width: 100%; top: -8px; }
+.menu-icon:before { top: 7px; }
+
+#langs {
+  right: 40px;
+  top: 31px;
+}
+
+#loader {
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+  background-size: auto 200px;
+}
+
+
+.copy-body img {
+  width: 100%;
+}
+
+
+.side-col aside {
+  margin-right: 0;
+  text-align: center;
+  margin-bottom: -42x;
+}
+
+  .side-col aside img {
+    margin-bottom: -100px;
+  }
+
+.side-col .affix {
+  position: relative;
+  top: 0;
+  width: auto;
+}
+.side-nav {
+  text-align: left;
+}
+.side-nav a {
+  width: auto;
+  float: none;
+}
+
+
+.e-newsletter .input-append {
+  position: relative;
+}
+
+.mb-form .input-append .wpcf7-form-control-wrap {
+  width: 100%;
+  z-index: 1;
+  display: block;
+}
+  .mb-form .input-append .input {
+    padding-right: 100px;
+    width: 100%;
+    height: auto;
+  }
+  .mb-form .input, .mb-form div.wpcf7-response-output, .mb-form .btn {
+    -webkit-box-sizing: border-box; /* Safari 3.0 - 5.0, Chrome 1 - 9, Android 2.1 - 3.x */
+    -moz-box-sizing: border-box;    /* Firefox 1 - 28 */
+    box-sizing: border-box;
+  }
+.mb-form .input-append .btn {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: auto;
+}
+
+section.main-col .row .client {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+
+
+.cell.client {
+  width: 29%;
+}
+  .cell.client img {
+    height: auto;
+  }
+
+
+#left-who {
+  width: 100%;
+}
+#right-what {
+  width: 100%;
+}
+
+#circle-images img {
+  margin: 0 0 0 5px;
+}
+#circle-images .image-spacing {
+  margin-left: 1%;
+}
+
+      .stat .circle input {
+        font-size: 20px;
+      }
+  .stat p {
+    font-size: 10px;
+  }
+
+  .responsive-columns-2 .column {
+    width: 100%;
+    margin-right: 0;
+  }
+
+
+.bottom-links .span2 {
+  margin: 0 0 10px;
+}
+.bottom-links .span2:last-child {
+  float: right;
+}
+
+.portfolio,
+.isotope {
+  margin-left: -10px;
+  margin-right: -5px;
+}
+.isotope .span2,
+.portfolio .span2 {
+  width: 48%;
+  overflow: hidden;
+}
+  .portofolio img,
+  .isotope img {
+    width: 100%;
+  }
+
+
+.casestudy-container {
+  padding: 0 10px;
+}
+.tablet-casestudy-left {
+  text-align: center;
+}
+  .tablet-casestudy-left img {
+    max-width: 80%;
+  }
+
+.hl-1 {
+  font-size: 29px;
+  line-height: 27px;
+  display: block !important;
+  margin-bottom: 6px;
+}
+
+.portfolio-individual-header .hl-2-white {
+  font-size: 13px;
+}
+
+.hl-2-casestudy-white {
+  font-size: 25px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+a.grid-icon {
+  margin-top: 7px;
+}
+
+  a.grid-icon img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .center-1000-mt-1 .left,
+  .center-1000-kma .left,
+  .kma-logo-change,
+  .center-1000-salsaritas-1 .left,
+  .center-1000-foxon-1 .left {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .center-1000-mt-1 .right,
+  .center-1000-kma .right,
+  .new-logo-right,
+  .center-1000-salsaritas-1 .right,
+  .center-1000-foxon-1 .right,
+  .casestudy-center .right {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+.hl-2-casestudy {
+  font-size: 34px;
+}
+
+h2.mt-headline,
+h2.kma-headline  {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h2.salsaritas-headline  {
+  margin-bottom: 20px;
+}
+
+.solution-mt,
+p.kma-solution-paragraph,
+p.pm-solution-paragraph,
+p.foxon-solution-paragraph,
+p.salsaritas-solution-paragraph {
+  width: 85%;
+  margin-bottom: 20px;
+}
+
+ .tablet-milltower-left p.mt-ipads {
+  width: auto;
+ }
+
+h2.lavie-blue-headline {
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.milltower-bottom img {
+  margin-bottom: 20px;
+}
+
+.center-1000-kma .left,
+.kma-logo-change {
+  margin-left: 0;
+}
+.center-1000-kma .right,
+.new-logo-right {
+  width: 100%;
+}
+
+.kma-logo-change {
+  margin-bottom: 5px;
+}
+
+.new-logo-right {
+  margin-top: 0;
+}
+
+.diagonal-bg-band {
+  height: auto;
+  padding-bottom: 15px;
+}
+
+.center-1000-foxon-1 .right p {
+  width: 100%;
+}
+
+.bottles {
+  margin-bottom: -174px;
+}
+
+.bottle-cap {
+  margin-left: -236px;
+  margin-top: 246px;
+}
+
+.bottle-mask-right {
+  height: auto;
+}
+
+.bottle-mask {
+  width:  100%;
+}
+
+.mediabuzz {
+  margin-top: 35px;
+}
+
+
+.archive-links li {
+  text-align: left;
+}
+
+.brochure-images {
+  height: 615px;
+}
+
+.foxon-stats {
+  height: auto;
+  padding-bottom: 20px;
+}
+
+
+.foxon-stats .stat-1,
+.foxon-stats .stat-2 {
+  margin-right: 0;
+  float: none;
+  height: auto;
+}
+
+
+.span2.cell.award {
+  margin-left: 0;
+  width: 100%;
+  position: relative;
+}
+  .span2.cell.award  img {
+    width: 110px;
+    height: auto;
+  }
+  .span2.cell.award  .cell-description {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 110px;
+    right: 0;
+    width: auto;
+    display: block;
+  }
+    .span2.cell.award  .cd-content {
+      position: absolute;
+      top: 50%;
+      margin: -10px 0 0;
+    }
+
+.side-col.side-awards aside img {
+  padding-bottom: 100px;
+}
+
+.services > .tablet-sp-12 {
+  margin: 0;
+}
+
+
+.related .span2 {
+  margin-left: 0;
+  width: 100%;
+}
+  .related .cell img {
+    width: 120px;
+    height: auto;
+  }
+  .related .cell-description {
+    height: 75px;
+    min-width: 330px;
+  }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+.side-col aside {
+  margin-bottom: -34px;
+}
+
+
+.bottom-links .span2 {
+  width: 100%;
+}
+
+.hl-2-casestudy-white {
+  font-size: 22px;
+  line-height: 29px !important;
+  margin-top: 34px !important;
+}
+
+.solution-mt,
+p.kma-solution-paragraph,
+p.pm-solution-paragraph,
+p.foxon-solution-paragraph,
+p.salsaritas-solution-paragraph {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.lavie-nav.phone-sp-10 {
+  width: 50%;
+  height: auto;
+}
+
+.lavie-nav a.lavie-nav-item {
+  display: block;
+  height: 25px;
+}
+
+.lavie-info {
+  height: 235px;
+}
+
+.lavie-change {
+  width: auto;
+  height: auto;
+}
+
+.portfolio-share {
+  margin-top: 15px;
+}
+
+.hl-6 {
+  font-size: 36px;
+  line-height: 37px;
+}
+
+.milltower-bottom {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.kma-logo-change {
+  margin-left: -45px;
+}
+
+.portfolio-container-3 {
+  padding: 12px 0px 21px;
+}
+
+.portfolio-container-3 .hl-6 {
+  font-size: 30px;
+}
+
+.isotope .span2,
+.portfolio .span2 {
+  width: 46%;
+}
+
+.bottle-cap {
+  margin-left: -236px;
+  margin-top: 246px;
+}
+
+
+.marketing-materials {
+  margin-bottom: 390px;
+  height: auto;
+}
+
+.brochure-image {
+  top: -102px;
+}
+
+.bottle-cap {
+  margin-left: -295px;
+  margin-top: 285px;
+}
+
+.fp-bottle-cap {
+  top: -121px;
+}
+
+.foxon-logo-change {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.foxon-logo-nav {
+  margin-bottom: 14px;
+}
+
+.center-1000-foxon-1 .right p {
+  width: 100%;
+}
+
+  .center-1000-salsaritas-1 .left {
+    width: auto;
+    margin: 0;
+    height: 0;
+    float: none;
+    padding-bottom: 36.95%;
+  }
+
+
+.side-col aside img {
+  padding-bottom: 60px;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+
+
+.related .cell-description {
+  min-width: 139px;
+}
+
+}
+

@@ -1,0 +1,79 @@
+/* IE 8 specific styles here */
+.lt-ie9  #globalnav > .container .sub-menu li a {
+  	display: block;
+  	text-align: left;
+  	line-height: 14px;
+  	padding: 13px 30px 13px 15px;
+  	border-top: 1px solid #494a4e;
+    background: #111;
+  	color: #acacac;
+  }
+
+.lt-ie9 .touch-bg {
+  -ms-behavior: url(vendor/backgroundsize.htc);
+}
+
+/* IE 8 gets confused about names and weights */
+@font-face {
+  font-family: 'brandon-grotesque-bold';
+  src: url("../fonts/brandon_bld-webfont.eot");
+  src: url("../fonts/brandon_bld-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_bld-webfont.woff") format("woff"), url("../fonts/brandon_bld-webfont.ttf") format("truetype"), url("../fonts/brandon_bld-webfont.svg#brandon_grotesquebold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.lt-ie9 #globalnav a {
+  font-family: 'brandon-grotesque-bold';
+}
+
+.lt-ie9 .side-nav a {
+  font-family: 'brandon-grotesque-bold';
+}
+
+.lt-ie9 #globalnav > .container .sub-menu li:first-child {
+  border-top: none;
+}
+
+.lt-ie9 article {
+	zoom: 1;
+}
+
+.lt-ie9 a.forward-arrow:before {
+	position: static;
+  	display: none;
+}
+
+.lt-ie9 a.forward-arrow {
+	width: 50px;
+}
+
+.lt-ie9 a.back-arrow {
+	width: 80px;
+}
+
+.lt-ie9 .pg-services .view-project,
+.lt-ie9 .cell2 .view-project-new
+ {
+	display: none;
+}
+
+.lt-ie9 .cell2:hover .view-project-new {
+	display: block;
+}
+
+.lt-ie9 .our-workers {
+	display: none;
+}
+
+.lt-ie9 .pg-careers .info {
+	background: #222;
+}
+
+.lt-ie9 .description {
+	background: #000;
+}
+
+#ie-portfolio-image {
+	width: 544px;
+	height: 320px;
+}

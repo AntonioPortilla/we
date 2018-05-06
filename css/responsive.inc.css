@@ -1,0 +1,368 @@
+/* we can add responsive rules here */
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.5) {
+
+  #globalhead h1#logo {
+    background: url('../img/header/logo-badge-2x.png') no-repeat -2px -2px;
+    background-size: 355px 99px;
+  }
+
+  #globalhead {
+    background-size: 37px 37px;
+  }
+
+}
+
+/* responsive grids */
+@media screen and (min-width : 1380px) {
+  .span6 {
+    min-width: 800px;
+  }
+}
+
+
+/* responsive grids */
+@media screen and (min-width : 1210px) and (max-width : 1380px) {
+	.span6 {
+		width: 800px;
+	}
+}
+
+@media screen and (min-width : 1060px) and (max-width : 1210px) {
+	.span6 {
+		width: 660px;
+	}
+}
+
+@media screen and (min-width : 870px) and (max-width : 1060px) {
+	.span6 {
+		width: 490px;
+	}
+}
+
+@media screen and (max-width: 870px) {
+	.span6 {
+		width: 320px;
+	}
+
+  .contact-section span.eu-phone {margin-top:0px;}
+  .contact-section span.eu-email {margin-top:10px;}
+
+}
+
+/* vimeo embeds */
+@media screen and (min-width : 1000px) and (max-width : 1340px) {
+	iframe {
+		width: 660px;
+		height: 372px;
+	}
+}
+
+@media screen and (max-width : 1000px) {
+	iframe {
+		width: 490px;
+		height: 277px;
+	}
+}
+
+/* navigation scrolling */
+@media screen and (max-width: 1024px) {
+  #globalhead {
+    position: absolute;
+  }
+}
+
+
+/* case study responsive rules */
+@media screen and (max-width: 1380px) {
+
+ 	/* foxon */
+  .foxon-products, .solution-foxon, .bottles, .solution-kma {
+    width: 80%;
+  }
+
+  .foxon-products {
+    height: auto;
+  }
+
+  h2.foxon-band-headline {
+    width: 70%;
+  }
+
+  .bubble-large-2 {
+    left: 90%;
+  }
+
+  p.foxon-solution-paragraph {
+    width: 45%;
+    margin-bottom: 40px;
+  }
+
+  .center-1000-foxon-mask {
+    width: 80%;
+  }
+
+  .mediabuzz {
+    width: 80%;
+  }
+
+  h2.foxon-media-buzz {
+    width: 80%;
+  }
+
+  .sixpacks {
+    width: 80%;
+  }
+
+  .bottle-mask {
+    width: 30%;
+  }
+
+  .bottle-mask-right {
+    width: 40%;
+    margin-left: 0;
+  }
+
+  /* salsaritas */
+  .center-1000-salsaritas-1 {
+    padding: 0px 20px;
+    width: 960px;
+  }
+
+  .salsaritas-wraps-container {
+    width: 960px;
+    padding: 0px 20px;
+  }
+
+  .vehicle-wraps .left {
+    width: 250px;
+    margin-left: 20px;
+  }
+
+  .salsarita-devices, .salsarita-devices-laptop {
+    width: 960px;
+    height: 485px;
+    background-size: 960px 485px;
+    background-repeat: no-repeat;
+  }
+
+  .salsaritas_products-video {
+    display: none;
+  }
+
+  h2.salsaritas-purple-headline {
+    width: 93%;
+  }
+
+  p.salsaritas-solution-paragraph {
+    width: 45%;
+    margin-bottom: 40px;
+  }
+
+  .menus, .menus img {
+    width: 80%;
+  }
+
+  .menus img {
+    width: 90%;
+  }
+
+  .menu-images {
+    width: 80%;
+  }
+
+  .menu-images img {
+    margin-left: 5%;
+  }
+
+  .menu-images img.margin-left-0 {
+    margin-left: 0;
+  }
+
+  /* parkmobile case study styles */
+  .pm_products-video {
+    display: none;
+  }
+
+  .pm_products {
+    width: 80%;
+    height: auto;
+  }
+
+  .brand-standards, .marketing-materials {
+    clear: both;
+    width: 80%;
+  }
+
+  .brand-standards-block, .brand-standards-block-wide {
+    margin-bottom: 30px;
+  }
+
+  .brand-standards-block.last {
+    margin-right: 30px;
+  }
+
+  #shine-container h2 {
+    width: 80%;
+  }
+
+  h2.pm-green-headline {
+    width: 90%;
+  }
+
+  p.pm-solution-paragraph {
+    width: 45%;
+    margin-bottom: 40px;
+  }
+
+  .center-1000 {
+    width: 960px;
+  }
+
+  .brochure-image, .brochure-image img {
+    width: 960px;
+    height: 397px;
+  }
+
+  .brochure-images {
+    width: 960px;
+  }
+
+  .brochure-images img {
+    width: 960px;
+  }
+
+  .brochure-image-1, .brochure-image-2, .brochure-image-1 img, .brochure-image-2 img {
+    width: 960px;
+    height: 343px;
+  }
+
+  .marketing-materials {
+    margin-bottom: 200px;
+  }
+
+  /* mt case study */
+  .millenniumtower-devices,
+  .milltower-ipads,
+  .milltower-bottom {
+    width: 80%;
+    height: auto;
+  }
+
+  .solution-mt {
+    width: 45%;
+    margin-bottom: 40px;
+  }
+
+  h2.lavie-blue-headline {
+    width: 80%;
+  }
+
+  .lavie-devices {
+    width: 80%;
+    height: auto;
+  }
+
+  .milltower-bottom {
+    width: 95%;
+  }
+
+
+
+  /* kma case study */
+  .kma-devices {
+    width: 80%;
+    height: auto;
+  }
+
+  .solution-kma {
+    width: 80%;
+  }
+
+  p.kma-solution-paragraph {
+    width: 45%;
+    margin-bottom: 40px;
+  }
+
+  .kma-social {
+    width: 90%;
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  .menu-images img {
+    margin-left: 1%;
+    margin-bottom: 40px;
+  }
+
+  .catering-trigger, .inrestaurant-trigger {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    animation: none;
+  }
+
+  .marketing-materials .info {
+    display: none;
+  }
+
+  .milltower-bottom img {
+    height: auto;
+  }
+
+  h3.current {
+    margin-top: 0;
+  }
+
+  .milltower-bottom {
+    width: 75%;
+  }
+
+  .center-1000-kma .left-website {
+    margin-left: 20px;
+  }
+
+  .milltower-bottom {
+    height: auto;
+  }
+
+}
+
+
+/* ipad styles */
+
+.touch-bg {
+  /*background-image: url("../img/backgrounds/background-mobile.gif");*/
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.touch #globalnav .sub-menu,
+.touch #globalnav.disabled .sub-menu
+  {
+    position: absolute;
+    left: -999em;
+    width: auto;
+    background: rgba(37, 37, 37, 0.9);
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+    margin-left: 9px;
+    -webkit-transition: height 0s ease 0.0s,
+              opacity 0.25s ease 0s;
+  }
+
+  .touch #globalnav.disabled li:hover .sub-menu a {
+    display: none;
+    pointer-events: none;
+    cursor: default;
+  }
+
+
