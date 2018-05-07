@@ -42,36 +42,36 @@
 }
 
 .popup {
-    background-color: #ffffff;
-    color: #888888;
-    height: 245px;
-    left: 100%;
-    padding: 20px;
-    position: fixed;
-    right: 30%;
-    top: 25%;
-    width: 550px;
-    z-index: 101;
-    -moz-box-shadow: 0px 0px 10px 1px #888888;
-    -webkit-box-shadow: 0px 0px 10px 1px #888888;
-    box-shadow: 0px 0px 10px 1px #888888;
-    border-radius:10px;
-    -moz-border-radius:10px;
+	-moz-border-radius: 10px;
+	-moz-box-shadow: 0px 0px 10px 1px #888888;
+	-webkit-box-shadow: 0px 0px 10px 1px #888888;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 1px #888888;
+	color: #888888;
+	display: inline-block;
+	height: 800px;
+	margin-top: 5%;
+	opacity: initial;
+	padding: 20px;
+	width: 550px;
+	z-index: 9999;
 }
 
 .overlay {
-	background: #000000;
+	background: rgba(12, 106, 34, 0.9);
 	bottom: 0;
 	left: 0;
-	opacity:0.5;
+	/*opacity: 0.5;*/
 	position: fixed;
 	right: 0;
+	text-align: center;
 	top: 0;
 	z-index: 100;
 }
 
 a.close {
-	background: url("../images/li.png") repeat scroll left top transparent;
+	background: url("../images/cancel.png") repeat scroll left top transparent;
 	cursor: pointer;
 	float: right;
 	height: 26px;
@@ -79,4 +79,66 @@ a.close {
 	position: relative;
 	top: -33px;
 	width: 26px;
+}
+
+/*entidades Flotantes*/
+.entidades.left {
+	overflow: hidden;
+	left: 0;
+	position: fixed;
+	top: 210px;
+	z-index: 999;
+	margin-left: 20px;
+}
+.entidades.right {
+	overflow: hidden;
+	right: 0px;
+	position: fixed;
+	top: 210px;
+	z-index: 999;
+	margin-right: 20px;
+}
+.entidades a>div {
+	width: 100px;
+	height: 100px;
+	text-indent: 9999px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.ana {
+	background: url("../images/ana.png") no-repeat;
+}
+.oefa {
+	background: url("../images/oefa.png") no-repeat;
+}
+.minam {
+	background: url("../images/minam.png") no-repeat;
+}
+.minem {
+	background: url("../images/minem.png") no-repeat;
+}
+.osinergmin {
+	background: url("../images/osinergmin.png") no-repeat;
+}
+.osce {
+	background: url("../images/osce.png") no-repeat;
+}
+.vivienda {
+	background: url("../images/vivienda.png") no-repeat;
+}
+.digesa {
+	background: url("../images/digesa.png") no-repeat;
+}
+
+.creditos{
+	bottom: 0;
+	color: white;
+	font-size: 11px;
+	position: relative;
+	z-index: 9999;
+	text-align: center;
+}
+.creditos a{
+	color: white;
+	font-size: 11px;
 }

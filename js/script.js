@@ -35,6 +35,9 @@ window.onload = function(){
 	$('.civil3D').click(function(){
 		$('#civil3D').modal('show');
 	});
+	$('.capacitacion').click(function(){
+		$('#capacitacion').modal('show');
+	});
 	$('.arGIS').click(function(){
 		$('#arGIS').modal('show');
 	});
@@ -74,13 +77,22 @@ $(function(){
 		});
 	}
 
-	function closeDialog(id) {
+	/*function closeDialog(id) {
 		$('#'+id).css('position','absolute');
 		$('#'+id).animate({'left':'-100%'}, 500, function() {
 		$('#'+id).css('position','fixed');
 		$('#'+id).css('left','100%');
 		$('#overlay').fadeOut('fast');
 		});
-	}
+	}*/
+	$('.closeDialog').click(function(id){
+		console.log('cerrando popup');
+		//$('#'+id).css('position','absolute');
+		$('.popup').animate({'left':'-100%'}, 500, function() {
+			//$('#'+id).css('position','fixed');
+			//$('#'+id).css('left','100%');
+			$('#overlay').fadeOut('fast');
+		});
+	});
 
 })

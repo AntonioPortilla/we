@@ -64,12 +64,12 @@ var slideTransitionInOut = function($container, $content_out, $content_in, done)
 	in_height = in_height > window_height ? in_height : window_height;
 
 
-	var new_video = $content_in.data('video');
-	if (new_video && new_video.length > 0) {
-		setTimeout(function() {
-			mediaBOOM.video_manager.transitionTo(new_video);
-		}, 2000);
-	}
+	// var new_video = $content_in.data('video');
+	// if (new_video && new_video.length > 0) {
+	// 	setTimeout(function() {
+	// 		mediaBOOM.video_manager.transitionTo(new_video);
+	// 	}, 2000);
+	// }
 
 	$container.css({
 		height: out_height,
